@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+
+body {  
+  @apply bg-background;
+}
+
+/* === CSS HEADER === CSS HEADER === CSS HEADER === CSS HEADER === */
+.active {
+  @apply border-b border-mainColor text-mainColor;
+}
+
+nav a {
+  @apply border-b border-transparent pb-1 text-white cursor-pointer;
+  @apply hover:text-mainColor;
+}
+
+.icon {
+  @apply cursor-pointer;
+  @apply hover:scale-125;
+}
+
+.home-container {
+  background: url("./assets/home-img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* === CSS ABOUT === */
+.p-about {
+  @apply text-white text-sm font-extralight;
+}
+
+/* === CSS MENU === */
+.card:hover {
+  @apply bg-white/80;
+}
+
+.card:hover>span {
+  @apply text-bgBlack;
+}
+
+.card:hover>div span {
+  @apply text-bgBlack;
+}
+
+.card:hover>.btnCard {
+  @apply scale-x-110 shadow-lg shadow-black/40;
+}
+
+.divSocial {
+  @apply flex flex-col border-b border-transparent items-center text-white gap-1 hover:cursor-pointer;
+  @apply hover:border-b hover:border-mainColor hover:text-mainColor;
+}
