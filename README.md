@@ -30,12 +30,12 @@ Digite no seu navegador a URL `http://localhost:3000` para ver o projeto.
 &nbsp;  
 | Home | Sobre |
 |---|---|
-| <img height="293" src="./github/home.png" /> | <img height="293" src="./github/sobre.png" /> |
+| <img width="654" src="./github/home.png" /> | <img width="654" src="./github/sobre.png" /> |
 
 &nbsp;
 | Menu | Avaliações |
 |---|---|
-| <img height="293" src="./github/menu.png" /> | <img height="293" src="./github/avaliacoes.png" /> |
+| <img width="654" src="./github/menu.png" /> | <img width="654" src="./github/avaliacoes.png" /> |
 
 &nbsp;
 | Endereço e Redes Sociais |
