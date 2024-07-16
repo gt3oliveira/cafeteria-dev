@@ -1,6 +1,7 @@
 ## Cafeteria Dev
 
-Este é um projeto layout de um site de cafeteria utilizando o [Vite](https://vitejs.dev/). 
+Este é um projeto layout de um site de cafeteria iniciado com [Vite](https://vitejs.dev/) e desenvolvido com Typescript.
+
 Contendo no corpo da página as suas seções, sendo elas:
 
 - Home
@@ -21,6 +22,8 @@ npm install
 ```bash
 npm run dev
 ```
+
+&nbsp;
 
 Digite no seu navegador a URL `http://localhost:3000` para ver o projeto.
 
